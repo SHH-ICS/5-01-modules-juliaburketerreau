@@ -1,5 +1,6 @@
 # Create a program that accepts 2 numbers from the user. 
 # Your program will output a random number between the range given by the user.
-n = input()
-n2 = input()
-for i in range n-n2: 
+import random 
+a = int(input())
+b = int(input())
+print(random.randint(a,b))
