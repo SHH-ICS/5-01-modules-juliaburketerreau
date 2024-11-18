@@ -6,11 +6,10 @@ while redo:
   a = input( " What is your first number? " )
   b = input( "What is your second number? " )
   try:
-    a = float(a)
-    b = float(b)
-    if a == float and b == float:
-        redo = False
+    a = int(a)
+    b = int(b)
+    redo = False
   except:
-    print("Enter a valid number")
+    print("Please enter a valid number")
     redo = True
 print(random.randint(a,b))
