@@ -10,7 +10,7 @@ while (redo):
     if a >= 1 and b >= 1:
         redo = False       
   except: 
-    redo = True
     print("Try again! Both inputs must be a positive number.")
+    redo = True
 hyp = a **2 + b**2
 print("The hypotenuse is", hyp)
