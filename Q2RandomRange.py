@@ -13,3 +13,5 @@ while redo:
     print("Please enter a valid number")
     redo = True
 print(random.randint(a,b))
+if a < b:
+ print(random.randint(b,a))
