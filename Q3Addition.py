@@ -5,7 +5,7 @@ a = random.randint(1,100)
 b = random.randint(1,100)
 print("What is the answer to", a , "+" , b)
 ans = input()
-if ans == a + b:
+if ans == sum(a + b):
     print("That is correct!")
 else:
     print("Try again...")
