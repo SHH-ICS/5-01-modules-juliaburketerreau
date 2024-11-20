@@ -15,4 +15,5 @@ while (redo):
     print("Try again! Both inputs must be a positive number.")
 hyp = a **2 + b**2
 hyp = math.sqrt(hyp)
+hyp = round(hyp, 2)
 print("The hypotenuse is", hyp)
