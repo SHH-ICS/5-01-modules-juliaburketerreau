@@ -12,7 +12,4 @@ while redo:
   except:
     print("Please enter a valid number")
     redo = True
-if a > b: 
   print(random.randint(a,b)) 
-else:
-  print(random.randint(b,a))
