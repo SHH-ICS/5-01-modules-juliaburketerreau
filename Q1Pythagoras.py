@@ -9,11 +9,14 @@ while (redo):
     a = float(a)
     b = float(b)
     if a >= 1 and b >= 1:
-        redo = False       
+        redo = False   
+    else:
+      a <= 0 and b <= 0
+      print("Try again! Both inputs must be a positive number.")
+      redo = True    
   except: 
     print("Try again! Both inputs must be a positive number.")
     redo = True
-
 hyp = a **2 + b**2
 hyp = math.sqrt(hyp)
 hyp = round(hyp, 2)
