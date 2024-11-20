@@ -11,8 +11,8 @@ while (redo):
     if a >= 1 and b >= 1:
         redo = False       
   except: 
-    print("Try again! Both inputs must be a positive number.")
     redo = True
+      print("Try again! Both inputs must be a positive number.")
 hyp = a **2 + b**2
 hyp = math.sqrt(hyp)
 print("The hypotenuse is", hyp)
