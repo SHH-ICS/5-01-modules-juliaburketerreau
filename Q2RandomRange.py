@@ -12,4 +12,4 @@ while redo:
   except:
     print("Please enter a valid number")
     redo = True
-  print(random.randint(a,b)) 
+print(random.randint(a,b)) 
