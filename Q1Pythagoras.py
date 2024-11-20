@@ -12,7 +12,7 @@ while (redo):
         redo = False       
   except: 
     redo = True
-      print("Try again! Both inputs must be a positive number.")
+    print("Try again! Both inputs must be a positive number.")
 hyp = a **2 + b**2
 hyp = math.sqrt(hyp)
 print("The hypotenuse is", hyp)
