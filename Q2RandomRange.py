@@ -12,6 +12,6 @@ while redo:
   except:
     print("Please enter a valid number")
     redo = True
-a = min(a, b)
-b = max(a,b)
-print(random.randint(a,b))
+a1 = min(a,b)
+b2 = max(a,b)
+print(random.randint(a1,b2)) 
